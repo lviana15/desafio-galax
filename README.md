@@ -10,7 +10,7 @@ criar arquivo .env seguindo exemplo:
 MONGO_URI=mongodb://<host>:<porta-do-banco>/<nome-do-banco>
 ```
 
-Executar aplicação backend com comando
+Executar aplicação backend com comando (executando dentro da pasta backend)
 ```
 nest start
 ```
@@ -26,7 +26,7 @@ criar arquivo .env seguindo exemplo:
 VITE_API_URL=http://<host>:<porta-do-backend>
 ```
 
-Executar aplicação backend com comando
+Executar aplicação frontedn com comando (executando dentro da pasta frontend)
 ```
 npm run dev
 ```
