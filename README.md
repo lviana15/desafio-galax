@@ -7,7 +7,7 @@ cd backend
 
 criar arquivo .env seguindo exemplo:
 ```
-MONGO_URI=mongodb://<host>:<porta>/<nome-do-banco>
+MONGO_URI=mongodb://<host>:<porta-do-banco>/<nome-do-banco>
 ```
 
 Executar aplicação backend com comando
@@ -23,7 +23,7 @@ cd frontend
 ```
 criar arquivo .env seguindo exemplo:
 ```
-VITE_API_URL=http://localhost:3000
+VITE_API_URL=http://<host>:<porta-do-backend>
 ```
 
 Executar aplicação backend com comando
